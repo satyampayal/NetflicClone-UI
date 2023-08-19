@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+</head>
+
+<body>
+    <!--  banner section start ----->
+    <section class="w-[100%] h-[100vh] bg-[url('Images/banner.jpg')] ">
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+            <header class="max-w-[1170px] mx-auto">
+                <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[10px]">
+                    <figure>
+                        <img class="  w-[148px]" src="Images/netflix-logo.png" alt="netflix-logo">
+                    </figure>
+                    <div class="flex h-[30px] relative top-4  justify-end gap-1">
+                        <div>
+                            <select
+                                class='cursor-pointer bg-black  text-white  rounded-[5px] px-[10px] sm:p-[7px_25px] '
+                                name="" id="">
+                                <option value="English">English</option>
+                                <option value="Hindi">Hindi</option>
+                            </select>
+                        </div>
+                        <button class=" cursor-pointer border-none rounded-[6px] 
+                            hover:rounded-none hover:delay-200 px-4 bg-red-600 text-white ">
+                            Signin
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <div class="flex flex-col  text-center w-[100%] text-white mx-auto relative top-[40vh]">
+                <h1 class="lg:text-[44px] md:text-[36px] sm:text-[24px]
+                text-white font-bold  max-w-[100%] ">
+                    Unlimited movies,TV shows and more
+                </h1>
+                <h2 class="lg:text-[36px] md:text-[24px] sm:text-[16px] font-bold">Watch anywhere. cancle anytime.</h2>
+                <h3 class="lg:text-[24px] md:text-[20px] sm:text-[10px] font-bold">ready to watch? Enter your email to
+                    create or restart your memebership.</h3>
+                <form action="#" class=" ">
+                    <input type="email" placeholder=" Email address" name="email" class="border-[1px] border-white rounded-sm 
+                    bg-transparent text-start text-[16px] lg:px-[36px] lg:py-[10px] md:px-[16px] ">
+                    <button type="submit"
+                        class="bg-[red] border-[1px]  rounded-sm  text-start text-[16px] 
+                    lg:px-[36px] lg:py-[10px] md:px-[16px] hover:bg-red-600 delay-300 border-none hover:rounded-[5px] ">
+                        Get Started >
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--  banner section end ----->
+
+    <!------------- Enjoy On your tv section start ------------>
+    <section class="w-[100%] bg-[black] border-t-[5px]
+   border-t-[#ccc] py-[50px] text-white  ">
+        <div class="max-w-[1170px] mx-auto">
+            <div class="grid lg:grid-cols-2 md:grid-cols-1   lg:items-center ">
+                <div class="lg:max-w-[500px]  md:w-[100%] ">
+                    <h1
+                        class="lg:text-left   lg:text-[36px] font-[900] md:text-[32px] md:text-center text-[24px] text-center mb-4">
+                        Enjoy on your TV</h1>
+                    <p class="lg:text-[24px] lg:text-left md:text-[16px] md:text-center text-[16px] text-center">Watch
+                        on smart TVs, PlayStation, Xbox, Chromecast,
+                        Apple TV, Blu-ray players and more.</p>
+                </div>
+                <figure class=" mx-auto relative">
+                    <video class="absolute w-[72.5%] left-[13.25%] bottom-[25%]" autoplay muted loop>
+                        <source src="videoAssets/netflix-overall-video.m4v">
+                    </video>
+                    <img src="Images/tv.png" class="z-[1]" alt="">
+                    <!--<video class=" relative lg:top-[-347px] lg:left-[77px] lg:w-[425px]
+                md:top-[-380px] md:left-[85px] md:w-[465px] bg-transparent z-[0]" 
+                src="videoAssets/netflix-overall-video.m4v" autoplay loop muted>
+                
+                </video>
+                -->
+                </figure>
+            </div>
+
+        </div>
+    </section>
+    <!------------- Enjoy On your tv section end------------>
+
+    <!------------- Enjoy On your mobile stranger  section start ------------>
+    <section class="w-[100%] border-t-[5px] bg-black border-t-#ccc py-[50px]">
+        <div
+            class=" lg:grid lg:grid-cols-2  lg:justify-items-center lg:place-items-center flex  flex-col-reverse  text-white">
+            <!--left side-->
+            <figure class=" max-w-[1170px] mx-auto ">
+                <!--upper image -->
+                <img class="lg:w-[500px] max-w-[600px] " src="Images/mobile-0819.jpg" alt="">
+                <!--lower card-->
+                <div class="mx-auto flex lg:max-w-[274px] md:max-w-[454px] border-[1px] rounded-[10px] py-[16px] justify-between items-center
+                      ">
+                    <div class="flex mx-[5px] ">
+                        <img class="w-[50px] h-[50px] mx-[5px]" src="Images/starnger-small.png" alt="">
+                        <div>
+                            <h1>Stranger Things</h1>
+                            <a class="text-blue-800">Downloading...</a>
+                        </div>
+                    </div>
+                    <img class="w-[50px] h-[50px]" src="videoAssets/download-icon.gif" alt="">
+                </div>
+            </figure>
+            <div class=" justify-items-center mx-auto  lg:text-start  md:text-center ">
+                <h1 class="lg:text-[74px] lg:leading-[74px] text-[36px] leading-normal font-bold">Download your shows to
+                    watch offline</h1>
+                <h2 class="lg:text-[30px] text-[16px] mt-[10px] ">Save your favourites easily and always have something
+                    to watch.</h2>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!------------- Enjoy On your tv section sardar start ------------>
+    <section class="w-[100%] bg-[black] border-t-[5px]
+     border-t-[#ccc] py-[50px] text-white  ">
+        <div class="max-w-[1170px] mx-auto">
+            <div class="grid lg:grid-cols-2 md:grid-cols-1   lg:items-center ">
+                <div class="lg:max-w-[500px]  md:w-[100%] ">
+                    <h1
+                        class="lg:text-left   lg:text-[36px] font-[900] md:text-[32px] md:text-center text-[24px] text-center mb-4">
+                        Watch everywhere</h1>
+                    <p class="lg:text-[24px] lg:text-left md:text-[16px] md:text-center text-[16px] text-center">Watch
+                        Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV..</p>
+                </div>
+                <figure class=" mx-auto relative">
+                    <video class="absolute w-[73%] left-[13.25%] bottom-[25%]" autoplay muted loop>
+                        <source src="videoAssets/video-devices-in.m4v">
+                    </video>
+                    <img src="Images/tv.png" class="z-[1]" alt="">
+                    <!--<video class=" relative lg:top-[-347px] lg:left-[77px] lg:w-[425px]
+                  md:top-[-380px] md:left-[85px] md:w-[465px] bg-transparent z-[0]" 
+                  src="videoAssets/netflix-overall-video.m4v" autoplay loop muted>
+                  
+                  </video>
+                  -->
+                </figure>
+            </div>
+
+        </div>
+    </section>
+    <!------------- Enjoy On your tv section end------------>
+
+    <!------------- Enjoy On your kids start ------------>
+
+
+    <section class="w-[100%] border-t-[5px] bg-black border-t-#ccc py-[50px]">
+        <div
+            class=" lg:grid lg:grid-cols-2  lg:justify-items-center lg:place-items-center flex  flex-col-reverse  text-white">
+            <!--left side-->
+            <figure class=" max-w-[1170px] mx-auto ">
+                <!--upper image -->
+                <img class="lg:w-[500px] max-w-[600px] " src="Images/kids.png" alt="">
+                <!--lower card
+                <div class="mx-auto flex lg:max-w-[274px] md:max-w-[454px] border-[1px] rounded-[10px] py-[16px] justify-between items-center
+                      ">
+                    <div class="flex mx-[5px] ">
+                        <img class="w-[50px] h-[50px] mx-[5px]" src="Images/starnger-small.png" alt="">
+                        <div>
+                            <h1>Stranger Things</h1>
+                            <a class="text-blue-800">Downloading...</a>
+                        </div>
+                    </div>
+                    <img class="w-[50px] h-[50px]" src="videoAssets/download-icon.gif" alt="">
+                </div>
+            -->
+            </figure>
+            <div class=" justify-items-center mx-auto  lg:text-start md:text-center ">
+                <h1 class="lg:text-[74px] lg:leading-[74px] text-[36px] leading-normal font-bold">Create profiles for
+                    kids</h1>
+                <h2 class="lg:text-[30px] text-[26px] mt-[10px] ">Send children on adventures with their favourite
+                    characters in a space made just for them—free with your membership.</h2>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- few frequently ask question start-->
+    <section class="border-t-[5px] border-t-#ccc py-[50px] w-[100%] bg-black text-white">
+        <div class=" max-w-[1170px] mx-auto">
+            <h1 class="text-center  mb-[50px] lg:text-[3.5rem] md:text-[2rem] font-bold">
+                Frequently Asked Questions
+            </h1>
+            <div class=" text-[24px] mx-auto grid gap-4 ">
+                <div class="flex justify-between py-[16px] mx-[40px] bg-[rgba(44,41,41,0.6)] cursor-pointer hover:bg-[rgba(44,41,41,0.99)] ">
+                    <h1 class="ml-1">What is Netflix?</h1>
+                    <p class="mr-[10px]">+</p>
+                </div>
+
+                <div class="flex justify-between py-[16px] mx-[40px] bg-[rgba(44,41,41,0.6)] cursor-pointer hover:bg-[rgba(44,41,41,0.99)]">
+                    <h1 class="ml-1">How much netflix cost?</h1>
+                    <p class="mr-[10px]">+</p>
+                </div>
+
+                <div class="flex justify-between py-[16px] mx-[40px] bg-[rgba(44,41,41,0.6)] cursor-pointer hover:bg-[rgba(44,41,41,0.99)]">
+                    <h1 class="ml-1">Where i can watch?</h1>
+                    <p class="mr-[10px]">+</p>
+                </div>
+
+                <div class="flex justify-between py-[16px] mx-[40px] bg-[rgba(44,41,41,0.6)] cursor-pointer hover:bg-[rgba(44,41,41,0.99)]">
+                    <h1 class="ml-1">How do i cancel</h1>
+                    <p class="mr-[10px]">+</p>
+                </div>
+
+                <div class="flex justify-between py-[16px] mx-[40px] bg-[rgba(44,41,41,0.6)] cursor-pointer hover:bg-[rgba(44,41,41,0.99)]">
+                    <h1 class="ml-1">Where i can watch on Netflix?</h1>
+                    <p class="mr-[10px]">+</p>
+                </div>
+
+                <div class="flex justify-between py-[16px] mx-[40px] bg-[rgba(44,41,41,0.6)] cursor-pointer hover:bg-[rgba(44,41,41,0.99)]">
+                    <h1 class="ml-1"> Is Netflix good for kids?</h1>
+                    <p class="mr-[10px]">+</p>
+                </div>
+
+            </div>
+            <h1 class="text-[36px] md:text-[24px] text-center mt-[40px]">Ready to watch? Enter your email to create or restart your membership.</h1>
+            <form action="#" class="flex  justify-center gap-4 mt-[40px]">
+                <input type="email" placeholder=" Email address" name="email" class="border-[1px] border-white rounded-sm 
+                bg-transparent text-start text-[26px] lg:px-[46px] lg:py-[20px] md:px-[26px] ">
+                <button type="submit"
+                    class="bg-[red] border-[1px]  rounded-sm  text-start text-[26px] 
+                lg:px-[46px] lg:py-[20px] md:px-[16px] hover:bg-red-600 delay-300 border-none hover:rounded-[5px]  ">
+                    Get Started >
+                </button>
+            </form>
+        </div>
+
+    </section>
+    <!-- few frequently ask question end-->
+
+    <!-- footer section start-->
+         <footer class="w-[100%] border-t-[5px] border-t-#ccc bg-black py-[50px] text-white">
+            <h1 class="text-[14px] max-w-[1100px] mb-4 text-start mx-auto" >Questions? Call 000-800-919-1694</h1>
+            <div  class="max-w-[1100px] mx-auto grid justify-items-center lg:grid-cols-3 md:grid-cols-3 grid-cols-1">
+                <div class="list-none underline">
+                    <ul class="grid gap-2">
+                        <li>FAQ</li>
+                        <li>Media center</li>
+                        <li>Ways to Watch</li>
+                        <li>Cookie preferces</li>
+                        <li>Speed Test</li>
+                    </ul>
+                </div>
+                <div class="list-none underline">
+                    <ul class="grid gap-2">
+                        <li>Help Centre</li>
+                        <li>Investor Relations</li>
+                        <li>Terms of Use</li>
+                        <li>Corporate Information</li>
+                        <li>Legal Notices</li>
+                    </ul>
+                </div>
+                <div class="list-none underline">
+                    <ul class="grid gap-2">
+                        <li>Account</li>
+                        <li>Jobs</li>
+                        <li>Privacy</li>
+                        <li>Contact Us</li>
+                        <li>Only on Netflix</li>
+                    </ul>
+                </div>
+    
+            </div>
+            <div class="max-w-[900px] mx-auto   ">
+                <select
+                    class='cursor-pointer border-[1px] border-white bg-black  text-white  rounded-[5px] px-[16px] py-[6px] sm:p-[7px_25px] '
+                    name="" id="">
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+                <p class="text-[rgba(134,132,132,0.99)] mt-3">Netflix</p>
+            </div>
+
+         </footer>
+
+    <!-- footer section end-->
+
+
+
+</body>
+
+</html>
